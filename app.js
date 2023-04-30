@@ -1,29 +1,3 @@
-
-// const secenekler = ["tas","kagit","makas"];
-// function taskagit (){
-//     var oyuncununsecimi = prompt("Oyuncunun secimi");
-//     if(!secenekler.includes(oyuncununsecimi)){
-//         return alert("Duzgun bir secim yapın.");
-//     }
-//     var bilgisayarinsecimi = secenekler[Math.floor(Math.random()*secenekler.length)];
-//     alert(`Oyuncunun Seçimi: ${oyuncununsecimi}, Bilgisayarın Seçimi: ${bilgisayarinsecimi}`);
-//     if(oyuncununsecimi==bilgisayarinsecimi){
-//         return alert("Berabere Kaldiniz.");
-//     }
-//     if((oyuncununsecimi=='tas' && bilgisayarinsecimi=='makas')||
-//     (oyuncununsecimi=='kagit' && bilgisayarinsecimi=='tas')||
-//     (oyuncununsecimi=='makas' && bilgisayarinsecimi=='kagit')){
-//         return alert("Kazandiniz.");
-//     }
-//         return alert("Kaybettiniz.");
-
-
-// }
-// taskagit()
-
-
-
-
 const secenekler = ['tas','kagit','makas'];
 const beraberekalma = ['Berabere kaldın.','Nasıl Berabere kaldın ag','Berabere kaldın s2k'];
 const kazanma = ['Afferin kazandın','Seni şanslı araba','Helal len kazandın','bisiklet doğru gitti.'];
